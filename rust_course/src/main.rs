@@ -26,6 +26,9 @@ mod hash_set;
 mod iterators;
 mod vectors;
 
+mod closures;
+mod higher_functions;
+mod methods;
 mod strings;
 
 fn main() {
@@ -63,4 +66,7 @@ fn main() {
 
     // Characters and Strings
     strings::strings();
+    methods::methods();
+    closures::closures();
+    higher_functions::higher_functions();
 }
