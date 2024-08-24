@@ -30,6 +30,8 @@ mod closures;
 mod higher_functions;
 mod methods;
 mod strings;
+mod trait_parameters;
+mod traits;
 
 fn main() {
     println!("Hello, world!");
@@ -69,4 +71,6 @@ fn main() {
     methods::methods();
     closures::closures();
     higher_functions::higher_functions();
+    traits::traits();
+    trait_parameters::trait_parameters();
 }
