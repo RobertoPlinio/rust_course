@@ -30,8 +30,14 @@ mod closures;
 mod higher_functions;
 mod methods;
 mod strings;
+
+mod drop_trait;
+mod dynamic_static_dispatch;
+mod into_trait;
+mod operator_overloading;
 mod trait_parameters;
 mod traits;
+mod vec_different_objects;
 
 fn main() {
     println!("Hello, world!");
@@ -71,6 +77,13 @@ fn main() {
     methods::methods();
     closures::closures();
     higher_functions::higher_functions();
+
+    // Traits
     traits::traits();
     trait_parameters::trait_parameters();
+    into_trait::into_trait();
+    drop_trait::drop_trait();
+    operator_overloading::operator_overloading();
+    dynamic_static_dispatch::dynamic_static_dispatch();
+    vec_different_objects::vec_different_objects();
 }
